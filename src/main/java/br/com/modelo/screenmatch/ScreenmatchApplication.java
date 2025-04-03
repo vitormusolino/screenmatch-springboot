@@ -39,5 +39,6 @@ public class ScreenmatchApplication implements CommandLineRunner {
 			temporadas.add(dadosTemporada);
 		}
 		temporadas.forEach(System.out::println);
+		System.out.println("Oi");
 	}
 }
